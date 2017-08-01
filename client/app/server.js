@@ -60,7 +60,7 @@ export function createNewEvent(user, eventName, org, org_link, image, time, loca
 
   // Get the current UNIX time.
   var createTime = new Date().getTime();
-  // The new status update. The database will assign the ID for us.
+  // The new event object. The database will assign the ID for us.
   var newEvent = {
     "author": user,
     "eventName": eventName,
